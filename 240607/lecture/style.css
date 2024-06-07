@@ -1,0 +1,40 @@
+.outer {
+    background-color: red;
+    padding: 30px;
+    display: inline-block;
+}
+
+.inner {
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.box2 {
+    background-color: skyblue;
+    padding: 50px;
+    margin: 100px 0 0;
+}
+
+.blue {
+    background-color: blue;
+    /* width: 200px;
+    height: 100px; */
+    padding: 50px 100px;
+    display: inline-block;
+}
+
+
+
+.box3 {
+    background: yellowgreen;
+    padding: 30px;
+    margin: 150px;
+}
+
+.box3 h1 {
+    background: skyblue;
+    color: #fff;
+    padding: 20px;
+}

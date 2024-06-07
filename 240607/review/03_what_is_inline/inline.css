@@ -1,0 +1,38 @@
+div {
+    font: 60px/1 sans-serif;
+}
+
+
+a {
+    background: skyblue;
+    font-size: 30px;
+}
+
+span {
+    background: pink;
+    font-size: 20px;
+}
+
+.img1 {
+    width: 150px;
+    height: 130px;
+    background: yellowgreen;
+    padding: 50px 30px;
+}
+.img2 {
+    width: 170px;
+    height: 150px;
+    background: orange;
+    padding: 30px 50px;
+}
+.img3 {
+    width: 180px;
+    height: 150px;
+    background: lightcoral;
+}
+
+strong {
+    background: darkcyan;
+    font-size: 30px;
+    color: #fff;
+}
