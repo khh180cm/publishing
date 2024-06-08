@@ -1,0 +1,49 @@
+/*
+   html의 class를 부를 때는
+   클래스명 앞에 반드시 .(점)을 붙인다.
+*/
+
+.box1 {
+    /* 폰트 크기 */
+    font-size:20px;
+    /* 폰트 굵기 */
+    font-weight: bold;
+    /* 폰트 컬러 */
+    color: #fff;
+    /* 배경 */
+    background: red;
+}
+
+.box2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    background: pink;
+    /*
+    안쪽여백 padding과
+    바깥여백 margin은
+    최소 1개의 속성값과
+    최대 4개의 속성값이 들어갈 수 있다
+
+    1개의 수치값만 들어가면 상,우,하,좌 사방으로 모두 여백이 적용되고,
+    2개의 수치값만 들어가면 상하, 좌우 로 여백이 적용되고,
+    3개의 수치값만 들어가면 상, 좌우, 하 로 여백이 적용되고,
+    4개의 수치값이 들어가면 상,우,하,좌 시계방향 순으로 여백이 적용됩니다.
+    */
+    padding: 50px 70px;
+}
+
+.box3 {
+    font-size : 45px;
+    color: #fff;
+    background: lightgreen;
+    padding: 50px 30px 20px 70px;
+}
+
+.box4 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    background: orange;
+    margin: 50px;
+}
