@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    margin: 30px 350px;
+    background-color: yellowgreen;
+    width : 700px;
+    height : 300px;
+    color: #fff;
+}
+.title {
+    padding: 20px 50px 0px;
+}
+
+.box2 {
+    background-color:orange;
+    width : 600px;
+    height : 70px;
+    margin : 20px 40px;
+    padding: 10px;
+}
+
+.first {
+    background-color:skyblue;
+}
+
+
+.second {
+    background-color:gray;
+}
+
+.box3 {
+    background-color:red;
+    width : 500px;
+    height : 200px;
+    padding: 10px;
+}
+
+.box4 {
+    background-color:#fff;
+    width : 400px;
+    height : 30px;
+    margin : 30px 50px;
+}
+
+.box5 {
+    margin : 50px 30px;
+    background-color:blue;
+    height: 200px;
+    padding: 20px;
+}
+
+.box6 {
+    margin: 20px;
+}
+
+span {
+    background-color:white;
+    color:black;
+}
+
+
+.small {
+    background-color: #fff;
+    width : 120px;
+    height: 20px;
+    padding: 30px 20px;
+}
+
+.big {
+    color: #fff;
+    background-color: skyblue;
+    height: 30px;
+    padding: 20px;
+}
+
+.box7 {
+    margin : 20px 180px;
+    background-color: yellowgreen;
+    color : #fff;
+    width: 1000px;
+    height : 250px;
+    padding : 20px;
+}
+
+.box8 {
+    background-color: gray;
+    padding : 10px;
+}
+
+.box9 {
+    margin: 30px 50px;
+    padding: 10px;
+}
+
+.one {
+    background-color: skyblue;
+    font-size: 14px;
+}
+
+
+.two {
+    background-color: orange;
+    font-size: 10px;
+}
