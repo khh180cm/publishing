@@ -81,3 +81,28 @@
     font-size:10px;
     padding: 30px;
 }
+
+.box10 {
+    margin: 50px 0px;
+    background-color: skyblue;
+    width: 800px;
+    height: 40px;
+    padding: 30px;
+}
+
+.box11 {
+    display: inline-block;
+    color: #fff;
+    height: 20px;
+    width: 60px;
+    padding: 10px;
+}
+
+.box11:nth-child(odd) {
+    background-color: blue;
+}
+
+
+.box11:nth-child(even) {
+    background-color: gray;
+}
