@@ -1,0 +1,218 @@
+.box1 {
+    /* 배경속성 주기 */
+    background: red;
+    /* 안쪽여백 */
+    padding: 50px;
+    /* 바깥쪽여백 */
+    margin-bottom: 70px;
+}
+
+.box1>.box1-2>div {
+    background: #000;
+}
+
+.box1>div>div {
+    display: inline-block;
+    background: #fff;
+    padding: 30px;
+}
+
+.box1 a {
+    background: blue;
+    /* 글씨색깔 */
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+
+    /* 글자 굵기 */
+    font-weight: bold;
+    /* 글자크기 */
+    font-size: 20px;
+}
+
+
+.box2 {
+    background: orange;
+    padding: 50px;
+    margin-bottom: 70px;
+}
+
+.box2>ul {
+    background: #fff;
+    padding: 30px;
+}
+
+.box2 .ul2 {
+    background: yellowgreen;
+}
+
+.box2 .ul1 {
+    margin-bottom: 60px;
+}
+
+.box2 li {
+    background: orangered;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.box2 a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 20px;
+    background: skyblue;
+}
+
+.box3 {
+    background: blue;
+    padding: 50px;
+    margin-bottom: 70px;
+
+    /* 글자정렬 */
+    text-align: center;
+
+    /* 테두리 : 테두리 굵기, 테두리 형태(solid,dotted), 테두리 컬러 */
+    border: 20px dotted #fff;
+}
+
+.box3 h1 {
+    background: #fff;
+    padding: 20px;
+}
+
+.box3 p {
+    background: #ccc;
+    padding: 20px;
+}
+
+
+.box4 {
+    background: red;
+    padding: 50px;
+    margin-bottom: 70px;
+}
+
+.box4 .inner {
+    background: #fff;
+    padding: 30px;
+}
+
+.box4 .inner div {
+     /* 구체 만들기 전 정사각형 만들기 */
+    width: 100px;
+    height: 100px;
+    background: purple;
+
+    /* 테두리 굴곡 */
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.box5 {
+    margin-bottom: 70px;
+    background: orange;
+    padding: 50px;
+}
+
+.box5 h1 {
+    /* 글자정렬 */
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+}
+
+.box5 p {
+    background: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.box5 p span {
+    display: inline-block;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    font-size: 35px;
+}
+
+.box6 {
+    margin-bottom: 70px;
+    background: red;
+    padding: 20px;
+}
+
+.box6 .box6-1 {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background: blue;
+    /* 변화하는 과정을 보기 위한 시간 */
+    transition: 0.5s;
+}
+
+
+/* 선택자:hover - 마우스를 갖다댔을 때  */
+.box6 .box6-1:hover {
+    width: 450px;
+    background: #fff;
+}
+
+.box6:hover .box6-2 {
+    width: 600px;
+    background: orange;
+}
+
+.box6 .box6-2 {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background: #000;
+    transition: 0.5s;
+}
+
+
+.box7 {
+    background: pink;
+    padding: 50px;
+}
+
+.box7 .inner {
+    background: blue;
+    padding: 20px;
+}
+
+.box7 h1 {
+    width: 50%;
+    height: 250px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.box7 .con1 {
+    background: red;
+    /* 요소전체에 투명도 주기, 투명도 0을 주면 영역은 존재하는 상태*/
+    opacity: 0.7;
+}
+
+.box7 .con2 {
+    /* 배경에만 투명도 주기 */
+    background: rgba(0, 0, 0, .8);
+}
+
+.box7 .con3 {
+    /* 아예 영역자체를 사라지게 만들기 */
+    display: none;
+    background: yellowgreen;
+}
+
+
+.box8 {
+    margin: 100px 400px 300px;
+    height: 100px;
+    border: 5px solid red;
+    /* 부모 영역 바깥으로 자식요소가 넘치면 넘치는 영역 가려주기*/
+    /* overflow: scroll 주면 스크롤형태로 바뀜 */
+    overflow: hidden;
+}
