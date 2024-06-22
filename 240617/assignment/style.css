@@ -1,0 +1,108 @@
+.box1 {
+  background-color: pink;
+  padding: 30px;
+}
+
+.box1 .box2 img {
+  height: 300px;
+  width: 50%;
+}
+
+.box3 {
+  padding: 0 300px;
+  text-align: center;
+  color: #fff;
+}
+
+.box3 p {
+  font-size: 14px;
+}
+
+.box4 {
+  margin: 50px 0;
+  padding: 30px;
+}
+
+.box5,
+.box7 {
+  display: inline-block;
+  padding: 30px;
+}
+
+.box5 img,
+.box6 img,
+.box7 img {
+  height: 100px;
+  width: 100px;
+}
+
+.box5 {
+  background-color: skyblue;
+}
+
+.box6 {
+  background-color: palevioletred;
+  display: inline-block;
+  padding: 40px;
+}
+
+.box8 {
+  border: 2px solid red;
+}
+
+.box7 {
+  background-color: lightgreen;
+}
+
+.box8 {
+  padding: 0 50px;
+}
+
+.box8 h4 {
+  color: blue;
+}
+
+.box8 p {
+  font-size: 14px;
+}
+
+strong.green {
+  color: green;
+  font-size: 16px;
+}
+
+strong.red {
+  color: red;
+  font-size: 16px;
+}
+
+.box9 {
+  margin: 30px;
+  border: 3px dotted plum;
+}
+
+.box9 ul li.title6 {
+  color: blue;
+  font-weight: 100;
+}
+
+.box9 ul li.title7 {
+  color: red;
+  font-weight: 100;
+}
+
+.box10 {
+  background-color: plum;
+  height: 300px;
+  width: 300px;
+}
+
+.box10 p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.box10:hover {
+  background-color: palevioletred;
+  transition: 0.5s;
+}
