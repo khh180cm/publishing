@@ -44,10 +44,12 @@
   background-color: palevioletred;
   display: inline-block;
   padding: 40px;
+  position: relative;
+  top: -10px;
 }
 
 .box8 {
-  border: 2px solid red;
+  border: 2px solid tomato;
 }
 
 .box7 {
@@ -100,9 +102,11 @@ strong.red {
 .box10 p {
   font-size: 14px;
   text-align: center;
+  line-height: 22;
 }
 
 .box10:hover {
   background-color: palevioletred;
   transition: 0.5s;
+  color: transparent;
 }
